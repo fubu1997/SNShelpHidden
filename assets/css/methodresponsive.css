@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1199px) {
+  .이용방법페이지 {
+    padding: 20px;
+  }
+  .이용방법페이지 hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .이용방법페이지 h2 {
+    font-size: 28px;
+  }
+  .이용방법페이지 h3 {
+    font-size: 18px;
+  }
+  .이용방법페이지 p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .이용방법페이지 h2 {
+    font-size: 25px;
+  }
+  .이용방법페이지 hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .이용방법페이지 h3 {
+    font-size: 15px;
+  }
+  .이용방법페이지 p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .이용방법페이지 {
+    padding: 10px;
+  }
+  .이용방법페이지 hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .이용방법페이지 h2 {
+    font-size: 25px;
+  }
+  .이용방법페이지 h3 {
+    font-size: 15px;
+  }
+  .이용방법페이지 p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .이용방법페이지 {
+    padding: 10px;
+  }
+  .이용방법페이지 hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .이용방법페이지 h2 {
+    font-size: 25px;
+  }
+  .이용방법페이지 h3 {
+    font-size: 15px;
+  }
+  .이용방법페이지 p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}
