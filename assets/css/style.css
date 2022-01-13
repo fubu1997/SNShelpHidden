@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 a {
   transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -362,4 +366,18 @@ body {
     height: 50px;
     margin: 5px;
   }
+}
+
+/* 주문탭 디자인 */
+.주문탭 {
+  background-color: rgba(38, 39, 45, 0.8);
+  width: 100%;
+  border: 1px solid beige;
+  padding: 10px;
+}
+.instarID {
+  background-color: white;
+  color: black;
+  width: 60%;
+  text-align: center;
 }

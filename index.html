@@ -66,20 +66,144 @@
             <h4>서비스가격</h4>
             <section class="mainImg">
                 <div class="mainImg01">
-                  <img src="/assets/img/instar.png" />
-                  <img src="/assets/img/youtube.png" />
-                  <img src="/assets/img/tiktok.png" />
-                  <img src="/assets/img/facebook.png" />
+                  <img class="instarImg" src="/assets/img/instar.png" />
+                  <img class="youtubeImg" src="/assets/img/youtube.png" />
+                  <img class="tiktokImg" src="/assets/img/tiktok.png" />
+                  <img class="facebookImg" src="/assets/img/facebook.png" />
                 </div>
                 <div class="mainImg02">
-                  <img src="/assets/img/twitter.png" />
-                  <img src="/assets/img/Pinterest.png" />
-                  <img src="/assets/img/Telegram.png" />
-                  <img src="/assets/img/web.png" />
+                  <img class="twitterImg" src="/assets/img/twitter.png" />
+                  <img class="pinterestImg" src="/assets/img/Pinterest.png" />
+                  <img class="telegramImg" src="/assets/img/Telegram.png" />
+                  <img class="webImg" src="/assets/img/web.png" />
                 </div>
           </div>
-          <div class="PriceContent">
-                <div class="tg-wrap"><table class="tg" style="table-layout: fixed;">
+            <div class="PriceContent">
+              <div class="주문탭">
+                <h4>주문탭</h4>
+                <span>Target : </span>
+                <input class="instarID" type="text" placeholder="인스타 아이디 및 게시물 주소를 입력해주세요">
+                <p>전송멘트 : 
+                  <span>인스타그램 / 
+                    <span class="넘버">Num</span> / 
+                    <span class="수량">수량</span> / 
+                    <span class="가격">가격</span> / 
+                    <span class="주소">인스타ID or 게시글</span>
+                  </span>
+                </p>
+              </div>
+              <div class="tg-wrap instaPage">
+                <table class="tg" style="table-layout: fixed;">
+              <colgroup>
+              <col style="width: 43px">
+              <col style="width: 87px">
+              <col style="width: 374px">
+              <col style="width: 65px">
+              <col style="width: 77px">
+              <col style="width: 121px">
+              <col style="width: 181px">
+              <col style="width: 145px">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th class="tg-nfor">Num</th>
+                  <th class="tg-nfor">서비스종류</th>
+                  <th class="tg-nfor">서비스명</th>
+                  <th class="tg-nfor">품질</th>
+                  <th class="tg-nfor">최소</th>
+                  <th class="tg-nfor">주문수량</th>
+                  <th class="tg-nfor">가격 / 1000개당</th>
+                  <th class="tg-nfor">주문<br>전송멘트복사</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-p3h7">1</td>
+                  <td class="tg-p3h7" rowspan="9">인스타그램</td>
+                  <td class="tg-p3h7">도달범위 ↑,<br>노출빈도 ↑,<br>프로필방문</td>
+                  <td class="tg-p3h7">저</td>
+                  <td class="tg-p3h7">100</td>
+                  <td class="tg-p3h7"><input class="instarInput1" type="number" placeholder="1000"></td>
+                  <td class="tg-p3h7 instarPrice1">3,500원</td>
+                  <td class="tg-xwyw"><button>주문하기</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-p3h7">2</td>
+                  <td class="tg-p3h7">좋아요<br>(한국인)</td>
+                  <td class="tg-p3h7">저</td>
+                  <td class="tg-p3h7">10</td>
+                  <td class="tg-p3h7"><input type="number" placeholder="1000"></td>
+                  <td class="tg-p3h7">3,000원</td>
+                  <td class="tg-xwyw"><button>주문하기</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-p3h7">3</td>
+                  <td class="tg-p3h7">좋아요 + 도달범위<br>노출빈도 + 프로필방문</td>
+                  <td class="tg-p3h7">저</td>
+                  <td class="tg-p3h7">10</td>
+                  <td class="tg-p3h7"><input type="number" placeholder="1000"></td>
+                  <td class="tg-p3h7">8,000원</td>
+                  <td class="tg-xwyw"><button>주문하기</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-p3h7">4</td>
+                  <td class="tg-p3h7">팔로워<br>(한국인)</td>
+                  <td class="tg-p3h7">저</td>
+                  <td class="tg-p3h7">10</td>
+                  <td class="tg-p3h7"><input type="number" placeholder="1000"></td>
+                  <td class="tg-p3h7">30,000원</td>
+                  <td class="tg-xwyw"><button>주문하기</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-p3h7">5</td>
+                  <td class="tg-p3h7">팔로워<br>(한국인)</td>
+                  <td class="tg-p3h7">고</td>
+                  <td class="tg-p3h7">10</td>
+                  <td class="tg-p3h7"><input type="number" placeholder="1000"></td>
+                  <td class="tg-p3h7">130,000원</td>
+                  <td class="tg-xwyw"><button>주문하기</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-p3h7">6</td>
+                  <td class="tg-p3h7">팔로워<br>(여성계정)</td>
+                  <td class="tg-p3h7">고</td>
+                  <td class="tg-p3h7">10</td>
+                  <td class="tg-p3h7"><input type="number" placeholder="1000"></td>
+                  <td class="tg-p3h7">150,000원</td>
+                  <td class="tg-xwyw"><button>주문하기</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-p3h7">7</td>
+                  <td class="tg-p3h7">팔로워<br>(남성계정)</td>
+                  <td class="tg-p3h7">고</td>
+                  <td class="tg-p3h7">10</td>
+                  <td class="tg-p3h7"><input type="number" placeholder="1000"></td>
+                  <td class="tg-p3h7">150,000원</td>
+                  <td class="tg-xwyw"><button>주문하기</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-p3h7">8</td>
+                  <td class="tg-p3h7">커스텀 댓글</td>
+                  <td class="tg-p3h7">고</td>
+                  <td class="tg-p3h7">1</td>
+                  <td class="tg-p3h7"><input type="number" placeholder="1000"></td>
+                  <td class="tg-p3h7">150,000원</td>
+                  <td class="tg-xwyw"><button>주문하기</button></td>
+                </tr>
+                <tr>
+                  <td class="tg-p3h7">9</td>
+                  <td class="tg-p3h7">랜덤댓글</td>
+                  <td class="tg-p3h7">고</td>
+                  <td class="tg-p3h7">5</td>
+                  <td class="tg-p3h7"><input type="number" placeholder="1000"></td>
+                  <td class="tg-p3h7">200,000원</td>
+                  <td class="tg-xwyw"><button>주문하기</button></td>
+                </tr>
+              </tbody>
+              </table>
+              </div>
+              <div class="tg-wrap facebookPage" style="display: none;">
+                <table class="tg" style="table-layout: fixed;">
                 <colgroup>
                 <col style="width: 43px">
                 <col style="width: 87px">
@@ -105,88 +229,479 @@
                 <tbody>
                   <tr>
                     <td class="tg-p3h7">1</td>
-                    <td class="tg-p3h7" rowspan="9">인스타그램</td>
-                    <td class="tg-p3h7">도달범위 ↑,<br>노출빈도 ↑,<br>프로필방문</td>
-                    <td class="tg-p3h7">저</td>
+                    <td class="tg-p3h7" rowspan="6">페이스북</td>
+                    <td class="tg-p3h7">페이지 좋아요</td>
+                    <td class="tg-p3h7">고</td>
                     <td class="tg-p3h7">100</td>
                     <td class="tg-p3h7">00</td>
-                    <td class="tg-p3h7">3,500원</td>
+                    <td class="tg-p3h7">40,000원</td>
                     <td class="tg-xwyw"></td>
                   </tr>
                   <tr>
                     <td class="tg-p3h7">2</td>
-                    <td class="tg-p3h7">좋아요<br>(한국인)</td>
-                    <td class="tg-p3h7">저</td>
-                    <td class="tg-p3h7">10</td>
-                    <td class="tg-p3h7">00</td>
-                    <td class="tg-p3h7">3,000원</td>
-                    <td class="tg-xwyw"></td>
-                  </tr>
-                  <tr>
-                    <td class="tg-p3h7">3</td>
-                    <td class="tg-p3h7">좋아요 + 도달범위<br>노출빈도 + 프로필방문</td>
-                    <td class="tg-p3h7">저</td>
-                    <td class="tg-p3h7">10</td>
-                    <td class="tg-p3h7">00</td>
-                    <td class="tg-p3h7">8,000원</td>
-                    <td class="tg-xwyw"></td>
-                  </tr>
-                  <tr>
-                    <td class="tg-p3h7">4</td>
-                    <td class="tg-p3h7">팔로워<br>(한국인)</td>
-                    <td class="tg-p3h7">저</td>
-                    <td class="tg-p3h7">10</td>
+                    <td class="tg-p3h7">게시물 좋아요</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
                     <td class="tg-p3h7">00</td>
                     <td class="tg-p3h7">30,000원</td>
                     <td class="tg-xwyw"></td>
                   </tr>
                   <tr>
-                    <td class="tg-p3h7">5</td>
-                    <td class="tg-p3h7">팔로워<br>(한국인)</td>
+                    <td class="tg-p3h7">3</td>
+                    <td class="tg-p3h7">동영상 조회수</td>
                     <td class="tg-p3h7">고</td>
-                    <td class="tg-p3h7">10</td>
+                    <td class="tg-p3h7">1000</td>
                     <td class="tg-p3h7">00</td>
-                    <td class="tg-p3h7">130,000원</td>
+                    <td class="tg-p3h7">2,000원</td>
+                    <td class="tg-xwyw"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">4</td>
+                    <td class="tg-p3h7">게시물 공유</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">50</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">90,000원</td>
+                    <td class="tg-xwyw"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">5</td>
+                    <td class="tg-p3h7">개인계정 팔로워</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">50,000원</td>
                     <td class="tg-xwyw"></td>
                   </tr>
                   <tr>
                     <td class="tg-p3h7">6</td>
-                    <td class="tg-p3h7">팔로워<br>(여성계정)</td>
+                    <td class="tg-p3h7">댓글 좋아요</td>
                     <td class="tg-p3h7">고</td>
-                    <td class="tg-p3h7">10</td>
+                    <td class="tg-p3h7">100</td>
                     <td class="tg-p3h7">00</td>
-                    <td class="tg-p3h7">150,000원</td>
-                    <td class="tg-xwyw"></td>
-                  </tr>
-                  <tr>
-                    <td class="tg-p3h7">7</td>
-                    <td class="tg-p3h7">팔로워<br>(남성계정)</td>
-                    <td class="tg-p3h7">고</td>
-                    <td class="tg-p3h7">10</td>
-                    <td class="tg-p3h7">00</td>
-                    <td class="tg-p3h7">150,000원</td>
-                    <td class="tg-xwyw"></td>
-                  </tr>
-                  <tr>
-                    <td class="tg-p3h7">8</td>
-                    <td class="tg-p3h7">커스텀 댓글</td>
-                    <td class="tg-p3h7">고</td>
-                    <td class="tg-p3h7">1</td>
-                    <td class="tg-p3h7">00</td>
-                    <td class="tg-p3h7">150,000원</td>
-                    <td class="tg-xwyw"></td>
-                  </tr>
-                  <tr>
-                    <td class="tg-p3h7">9</td>
-                    <td class="tg-p3h7">랜덤댓글</td>
-                    <td class="tg-p3h7">고</td>
-                    <td class="tg-p3h7">5</td>
-                    <td class="tg-p3h7">00</td>
-                    <td class="tg-p3h7">200,000원</td>
+                    <td class="tg-p3h7">170,00원</td>
                     <td class="tg-xwyw"></td>
                   </tr>
                 </tbody>
-                </table></div>
+                </table>
+              </div>
+              <div class="tg-wrap youtubePage" style="display: none;">
+                <table class="tg" style="table-layout: fixed;">
+                <colgroup>
+                <col style="width: 43px">
+                <col style="width: 89px">
+                <col style="width: 379px">
+                <col style="width: 66px">
+                <col style="width: 78px">
+                <col style="width: 122px">
+                <col style="width: 184px">
+                <col style="width: 147px">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th class="tg-nfor">Num</th>
+                    <th class="tg-nfor">서비스종류</th>
+                    <th class="tg-nfor">서비스명</th>
+                    <th class="tg-nfor">품질</th>
+                    <th class="tg-nfor">최소</th>
+                    <th class="tg-nfor">주문수량</th>
+                    <th class="tg-nfor">가격 / 1000개당</th>
+                    <th class="tg-nfor">주문하기</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tg-p3h7">1</td>
+                    <td class="tg-p3h7" rowspan="11">유튜브</td>
+                    <td class="tg-p3h7">조회수 늘리기</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">9,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">2</td>
+                    <td class="tg-p3h7">조회수 늘리기</td>
+                    <td class="tg-p3h7">저</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">6,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">3</td>
+                    <td class="tg-p3h7">좋아요 늘리기</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">1000</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">15,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">4</td>
+                    <td class="tg-p3h7">좋아요 늘리기</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">50</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">10,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">5</td>
+                    <td class="tg-p3h7">채널 구독자</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">150,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">6</td>
+                    <td class="tg-p3h7">채널 구독자</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">110,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">7</td>
+                    <td class="tg-p3h7">한국인 댓글</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">5</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">500,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">8</td>
+                    <td class="tg-p3h7">댓글 좋아요</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">10</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">50,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">9</td>
+                    <td class="tg-p3h7">이모지 댓글</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">10</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">80,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">10</td>
+                    <td class="tg-p3h7">소셜미디어 공유</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">40,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">11</td>
+                    <td class="tg-p3h7">라이브 스트리밍 시청자</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">1000</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">20,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+              <div class="tg-wrap tiktokPage" style="display: none;">
+                <table class="tg" style="table-layout: fixed;">
+                <colgroup>
+                <col style="width: 43px">
+                <col style="width: 89px">
+                <col style="width: 379px">
+                <col style="width: 66px">
+                <col style="width: 78px">
+                <col style="width: 122px">
+                <col style="width: 184px">
+                <col style="width: 147px">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th class="tg-nfor">Num</th>
+                    <th class="tg-nfor">서비스종류</th>
+                    <th class="tg-nfor">서비스명</th>
+                    <th class="tg-nfor">품질</th>
+                    <th class="tg-nfor">최소</th>
+                    <th class="tg-nfor">주문수량</th>
+                    <th class="tg-nfor">가격 / 1000개당</th>
+                    <th class="tg-nfor">주문하기</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tg-p3h7">1</td>
+                    <td class="tg-p3h7" rowspan="6">틱톡</td>
+                    <td class="tg-p3h7">동영상 조회수</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">2,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">2</td>
+                    <td class="tg-p3h7">한국인 팔로워</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">30</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">65,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">3</td>
+                    <td class="tg-p3h7">팔로워</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">50</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">20,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">4</td>
+                    <td class="tg-p3h7">한국인 좋아요</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">30</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">20,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">5</td>
+                    <td class="tg-p3h7">동영상 좋아요</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">50</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">20,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">6</td>
+                    <td class="tg-p3h7">동영상 공유</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">4,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+              <div class="tg-wrap twitterPage" style="display: none;">
+                <table class="tg" style="table-layout: fixed;">
+                <colgroup>
+                <col style="width: 43px">
+                <col style="width: 89px">
+                <col style="width: 379px">
+                <col style="width: 66px">
+                <col style="width: 78px">
+                <col style="width: 122px">
+                <col style="width: 184px">
+                <col style="width: 147px">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th class="tg-nfor">Num</th>
+                    <th class="tg-nfor">서비스종류</th>
+                    <th class="tg-nfor">서비스명</th>
+                    <th class="tg-nfor">품질</th>
+                    <th class="tg-nfor">최소</th>
+                    <th class="tg-nfor">주문수량</th>
+                    <th class="tg-nfor">가격 / 1000개당</th>
+                    <th class="tg-nfor">주문하기</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tg-p3h7">1</td>
+                    <td class="tg-p3h7" rowspan="3">트위터</td>
+                    <td class="tg-p3h7">계정 팔로워</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">100,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">2</td>
+                    <td class="tg-p3h7">게시물 좋아요</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">50</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">90,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">3</td>
+                    <td class="tg-p3h7">게시물 리트윗</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">50</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">90,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+              <div class="tg-wrap pinterestPage" style="display: none;">
+                <table class="tg" style="table-layout: fixed;">
+                <colgroup>
+                <col style="width: 43px">
+                <col style="width: 89px">
+                <col style="width: 379px">
+                <col style="width: 66px">
+                <col style="width: 78px">
+                <col style="width: 122px">
+                <col style="width: 184px">
+                <col style="width: 147px">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th class="tg-nfor">Num</th>
+                    <th class="tg-nfor">서비스종류</th>
+                    <th class="tg-nfor">서비스명</th>
+                    <th class="tg-nfor">품질</th>
+                    <th class="tg-nfor">최소</th>
+                    <th class="tg-nfor">주문수량</th>
+                    <th class="tg-nfor">가격 / 1000개당</th>
+                    <th class="tg-nfor">주문하기</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tg-p3h7">1</td>
+                    <td class="tg-p3h7" rowspan="2">핀터레스트</td>
+                    <td class="tg-p3h7">게시물 팔로워</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">50,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">2</td>
+                    <td class="tg-p3h7">게시물 저장</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">25,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+              <div class="tg-wrap telegramPage" style="display: none;">
+                <table class="tg" style="table-layout: fixed;">
+                <colgroup>
+                <col style="width: 43px">
+                <col style="width: 89px">
+                <col style="width: 379px">
+                <col style="width: 66px">
+                <col style="width: 78px">
+                <col style="width: 122px">
+                <col style="width: 184px">
+                <col style="width: 147px">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th class="tg-nfor">Num</th>
+                    <th class="tg-nfor">서비스종류</th>
+                    <th class="tg-nfor">서비스명</th>
+                    <th class="tg-nfor">품질</th>
+                    <th class="tg-nfor">최소</th>
+                    <th class="tg-nfor">주문수량</th>
+                    <th class="tg-nfor">가격 / 1000개당</th>
+                    <th class="tg-nfor">주문하기</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tg-p3h7">1</td>
+                    <td class="tg-p3h7" rowspan="2">텔레그램</td>
+                    <td class="tg-p3h7">텔레그램 멤버수</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">500</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">5,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">2</td>
+                    <td class="tg-p3h7">텔레그램 좋아요</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">5</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">5,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+              <div class="tg-wrap webPage" style="display: none;">
+                <table class="tg" style="table-layout: fixed;">
+                <colgroup>
+                <col style="width: 44px">
+                <col style="width: 90px">
+                <col style="width: 385px">
+                <col style="width: 67px">
+                <col style="width: 80px">
+                <col style="width: 124px">
+                <col style="width: 187px">
+                <col style="width: 149px">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th class="tg-nfor">Num</th>
+                    <th class="tg-nfor">서비스종류</th>
+                    <th class="tg-nfor">서비스명</th>
+                    <th class="tg-nfor">품질</th>
+                    <th class="tg-nfor">최소</th>
+                    <th class="tg-nfor">주문수량</th>
+                    <th class="tg-nfor">가격 / 1000개당</th>
+                    <th class="tg-nfor">주문하기</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tg-p3h7">1</td>
+                    <td class="tg-p3h7" rowspan="3">웹사이트</td>
+                    <td class="tg-p3h7">웹사이트 트래픽(나라별)</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">500</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">10,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">2</td>
+                    <td class="tg-p3h7">웹사이트 SEO 작업</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">500</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">50,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-p3h7">3</td>
+                    <td class="tg-p3h7">웹사이트 방문</td>
+                    <td class="tg-p3h7">고</td>
+                    <td class="tg-p3h7">100</td>
+                    <td class="tg-p3h7">00</td>
+                    <td class="tg-p3h7">30,000원</td>
+                    <td class="tg-p3h7"></td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
           </div>
         </div>
       </div>
@@ -196,9 +711,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap-select.min.js"></script>
-    <script src="assets/js/jquery.slicknav.min.js"></script>
-    <script src="assets/js/jquery.countTo.min.js"></script>
-    <script src="assets/js/jquery.shuffle.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
